@@ -15,7 +15,10 @@
 
   "postCreateCommand": "npm install",
 
-  "extensions": ["esbenp.prettier-vscode"],
+  "extensions": [
+	"esbenp.prettier-vscode",
+	"MS-vsliveshare.vsliveshare"
+],
 
   "forwardPorts": [3000]
 }
