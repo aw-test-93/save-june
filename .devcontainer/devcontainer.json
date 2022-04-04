@@ -20,5 +20,17 @@
 	"MS-vsliveshare.vsliveshare"
 ],
 
-  "forwardPorts": [3000]
+  "forwardPorts": [3000],
+
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "my_org/*": {
+          "permissions": {
+            "issues": "write"
+          }
+        }
+      }
+    }
+  }
 }
